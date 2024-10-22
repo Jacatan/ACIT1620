@@ -1,0 +1,111 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+form button {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: hsl(120, 56%, 40%);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 5rem;
+    margin-left: auto;
+}
+.page-container{
+    background-color: rgb(43, 113, 113);
+    padding: 20px;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+
+.nav_about{
+    display: flex;
+    text-align: right;
+}
+
+.about{
+    margin-left: 45px;
+}
+
+.contact_flex{
+    display: flex;
+    padding-top: 25px;
+}
+
+.contact{
+    width:100%;
+    margin-left: 45px;
+}
+
+.list{
+    list-style: none;
+    color: rgb(43, 113, 113);
+    width: 100px;
+}
+
+li{
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.header_flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.header_flex_about{
+    display: flex;
+    margin-top: 35px;
+}
+
+.container{
+    margin-left: 50px;
+}
+.container img {
+    width: 250px; 
+    margin-right: 20px; 
+}
+
+.text-content {
+    display: flex;
+   flex-direction: row;
+}
+
+.footer{
+    background-color: rgb(43, 113, 113);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+
+}
+ 
+#contact{
+    border-width: thin;
+    border-style: inset;
+}
